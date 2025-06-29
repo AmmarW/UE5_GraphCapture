@@ -35,15 +35,13 @@ cd <UnrealEngineDir>/Engine/Build/BatchFiles/Linux
 
 1. Open any supported graph editor (Blueprint, Material, etc.).
 2. **To take a screenshot:**  
-Select the nodes you want to capture, or leave nothing selected to capture the entire graph.  
-Use the "GraphShot" button in the toolbar or menu to take a screenshot.
-3. **To export graph as JSON:**
-Click the "Export Graph JSON" button to export the graph as JSON.
-
+Select the nodes you want to capture, or CTRL+A to capture the entire graph. Zoom to 1:1 and make sure the left-most (starting nodes) are visible. Use the "GraphShot" button in the toolbar or menu to take a screenshot.
 <p align="center">
     <img src="Resources/buttons.png" alt="GraphShot and Export Graph JSON Buttons">
 </p>
 
+3. **To export graph as JSON:**
+Click the "Export Graph JSON" button to export the graph as JSON.
 When exporting, choose which details to include in the dialog that appears, then confirm.<br>
 <p align="center">
     <img src="Resources/exportdialog.png" alt="Export JSON Dialog">
